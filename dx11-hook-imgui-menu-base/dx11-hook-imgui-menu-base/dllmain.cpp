@@ -154,12 +154,12 @@ void WINAPI Init()
 		result = Util::SetupConsole();
 		if (!result)
 		{
-			cout << "[-] Console allocation failed!" << endl;
-			system("pause");
-			return;
+			cout << "[-] Console already allocated!" << endl;
 		}
-
-		cout << "[+] Console alloced successfully." << endl;
+		else
+		{
+			cout << "[+] Console alloced successfully." << endl;
+		}
 	}
 
 	/// <summary>
