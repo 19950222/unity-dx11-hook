@@ -2,4 +2,4 @@
 
 #include <libloaderapi.h>
 
-#define BASE_ADDR (DWORD64)(GetModuleHandle(L"GameAssembly.dll"))
+#define BASE_ADDRESS (DWORD64)(GetModuleHandle(L"GameAssembly.dll"))

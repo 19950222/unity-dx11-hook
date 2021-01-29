@@ -24,5 +24,15 @@ namespace Patchable
 			DWORD64 oString_New;
 			DWORD64 oString_Concat;
 		}
+
+		namespace TextMeshPro
+		{
+			namespace TextMeshProUGUI
+			{
+				DWORD64 oSetText;
+				DWORD64 oSetAllDirty;
+				DWORD64 oSetFaceColor;
+			}
+		}
 	}
 }

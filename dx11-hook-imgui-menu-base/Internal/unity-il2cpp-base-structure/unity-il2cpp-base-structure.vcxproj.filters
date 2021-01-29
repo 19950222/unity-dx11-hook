@@ -25,6 +25,9 @@
     <Filter Include="Header Files\Structure\UnityEngine">
       <UniqueIdentifier>{2915a8c4-6c9e-4a4b-a66f-544a94bc2298}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Structure\Unity.TextMeshPro">
+      <UniqueIdentifier>{12b37d4d-ff48-4367-9de8-55e85188c6da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -33,7 +36,7 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Offset.hpp">
+    <ClInclude Include="Includes\Patchable\Offset.hpp">
       <Filter>Header Files\Patchable</Filter>
     </ClInclude>
     <ClInclude Include="Includes\Structure\UnityEngine\Vector2.hpp">
@@ -50,6 +53,12 @@
     </ClInclude>
     <ClInclude Include="Includes\Utils\Macro.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\Unity.TextMeshPro\TextMeshProUGUI.hpp">
+      <Filter>Header Files\Structure\Unity.TextMeshPro</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\IL2CPP\Il2cppArray.h">
+      <Filter>Header Files\Structure\IL2CPP</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

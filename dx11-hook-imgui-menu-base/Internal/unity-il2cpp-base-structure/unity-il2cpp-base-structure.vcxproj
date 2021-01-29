@@ -156,11 +156,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Includes\Structure\IL2CPP\Il2cppArray.h" />
     <ClInclude Include="Includes\Structure\IL2CPP\Il2CppString.hpp" />
+    <ClInclude Include="Includes\Structure\Unity.TextMeshPro\TextMeshProUGUI.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Color.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Vector2.hpp" />
     <ClInclude Include="Includes\Utils\Macro.h" />
-    <ClInclude Include="Offset.hpp" />
+    <ClInclude Include="Includes\Patchable\Offset.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Includes\Structure\UnityEngine\Vector3.hpp" />
   </ItemGroup>
