@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Patchable">
+      <UniqueIdentifier>{9846cf07-e85b-4ecc-9634-8f7287cf6989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure">
+      <UniqueIdentifier>{1e687055-3fae-48ec-a2da-90d099778a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\IL2CPP">
+      <UniqueIdentifier>{25f87c15-5079-44c2-ac3a-1d7aa931d7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\UnityEngine">
+      <UniqueIdentifier>{2915a8c4-6c9e-4a4b-a66f-544a94bc2298}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.hpp">
+      <Filter>Header Files\Patchable</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Vector2.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Vector3.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Color.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\IL2CPP\Il2CppString.hpp">
+      <Filter>Header Files\Structure\IL2CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

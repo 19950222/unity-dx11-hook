@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dx11-hook-imgui-menu-base", "dx11-hook-imgui-menu-base\dx11-hook-imgui-menu-base.vcxproj", "{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{D22B2CD4-21DB-4D75-BF37-40E4126512ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unity-il2cpp-base-structure", "Internal\unity-il2cpp-base-structure\unity-il2cpp-base-structure.vcxproj", "{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,9 +19,16 @@ Global
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Debug|x64.Build.0 = Debug|x64
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Release|x64.ActiveCfg = Release|x64
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Release|x64.Build.0 = Release|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x64.ActiveCfg = Debug|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x64.Build.0 = Debug|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x64.ActiveCfg = Release|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA} = {D22B2CD4-21DB-4D75-BF37-40E4126512ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA263A29-5963-4E92-AB08-4D18589A5A7B}
