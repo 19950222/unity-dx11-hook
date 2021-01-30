@@ -163,6 +163,7 @@
     <ClInclude Include="Includes\Structure\IL2CPP\MonitorData.hpp" />
     <ClInclude Include="Includes\Structure\Unity.TextMeshPro\TextMeshProUGUI.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Color.hpp" />
+    <ClInclude Include="Includes\Structure\UnityEngine\Object.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Quaternion.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Transform.hpp" />
     <ClInclude Include="Includes\Structure\UnityEngine\Vector2.hpp" />
