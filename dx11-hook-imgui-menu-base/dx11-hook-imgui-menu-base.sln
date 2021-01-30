@@ -9,26 +9,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{D2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unity-il2cpp-base-structure", "Internal\unity-il2cpp-base-structure\unity-il2cpp-base-structure.vcxproj", "{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{623A9F70-513A-4ED8-847A-7F74770AAB3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemorySizeIdentify", "MemorySizeIdentify\MemorySizeIdentify.vcxproj", "{F52CA734-165A-4232-AFA8-8B9B6DB9719D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Debug|x64.ActiveCfg = Debug|x64
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Debug|x64.Build.0 = Debug|x64
+		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Debug|x86.ActiveCfg = Debug|x64
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Release|x64.ActiveCfg = Release|x64
 		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Release|x64.Build.0 = Release|x64
+		{A8DAFFCE-3F4E-429E-ABF7-5C1B78F749DA}.Release|x86.ActiveCfg = Release|x64
 		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x64.ActiveCfg = Debug|x64
 		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x64.Build.0 = Debug|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Debug|x86.Build.0 = Debug|Win32
 		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x64.ActiveCfg = Release|x64
 		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x64.Build.0 = Release|x64
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x86.ActiveCfg = Release|Win32
+		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA}.Release|x86.Build.0 = Release|Win32
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Debug|x64.ActiveCfg = Debug|x64
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Debug|x64.Build.0 = Debug|x64
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Debug|x86.ActiveCfg = Debug|Win32
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Debug|x86.Build.0 = Debug|Win32
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Release|x64.ActiveCfg = Release|x64
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Release|x64.Build.0 = Release|x64
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Release|x86.ActiveCfg = Release|Win32
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CAA63D82-4DF2-4D4A-A8BC-04D8E1BE35BA} = {D22B2CD4-21DB-4D75-BF37-40E4126512ED}
+		{F52CA734-165A-4232-AFA8-8B9B6DB9719D} = {623A9F70-513A-4ED8-847A-7F74770AAB3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA263A29-5963-4E92-AB08-4D18589A5A7B}

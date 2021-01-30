@@ -28,6 +28,9 @@
     <Filter Include="Header Files\Structure\Unity.TextMeshPro">
       <UniqueIdentifier>{12b37d4d-ff48-4367-9de8-55e85188c6da}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{66a7e09a-3122-4a14-bcd8-13a6b76926eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -51,14 +54,32 @@
     <ClInclude Include="Includes\Structure\IL2CPP\Il2CppString.hpp">
       <Filter>Header Files\Structure\IL2CPP</Filter>
     </ClInclude>
-    <ClInclude Include="Includes\Utils\Macro.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Includes\Structure\Unity.TextMeshPro\TextMeshProUGUI.hpp">
       <Filter>Header Files\Structure\Unity.TextMeshPro</Filter>
     </ClInclude>
     <ClInclude Include="Includes\Structure\IL2CPP\Il2cppArray.h">
       <Filter>Header Files\Structure\IL2CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\Macro.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\IL2CPP\Il2CppObject.hpp">
+      <Filter>Header Files\Structure\IL2CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\IL2CPP\Il2CppClass.hpp">
+      <Filter>Header Files\Structure\IL2CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\IL2CPP\MonitorData.hpp">
+      <Filter>Header Files\Structure\IL2CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Transform.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Quaternion.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structure\UnityEngine\Vector4.hpp">
+      <Filter>Header Files\Structure\UnityEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,11 @@
 #pragma once
 
-struct Vector3
+namespace UnityEngine
 {
-	float x;
-	float y;
-	float z;
-};
+	struct Vector3
+	{
+		float x;
+		float y;
+		float z;
+	};
+}

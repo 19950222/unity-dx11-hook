@@ -2,9 +2,11 @@
 
 namespace UnityEngine
 {
-	struct Vector2
+	struct Quaternion
 	{
 		float x;
 		float y;
-	};
+		float z;
+		float w;
+	};	
 }
